@@ -1,0 +1,297 @@
+/*Setting common property for body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eff0;
+}
+
+/*setting the main body*/
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4px 12px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #2323236c;
+}
+
+/*Home Tab*/
+.home {
+   background-color: #aafcfc;
+   border-radius: 3px;
+   padding-top: 3px;
+   padding-bottom: 10px;
+   margin-bottom: 5px ;
+   text-align: center;
+}
+
+/*header for photo name and address*/
+
+header img {
+    border-radius: 50%;
+    width: 190px;
+    height: auto;
+    border: 2px solid #5d75fa;
+    margin-top: 10px;
+    /* box-shadow: 0 0 9px #282828a0; */
+}
+
+header h1 {
+    margin: 8px 0 4px;
+    color: black;
+}
+
+header p {
+    font-size: 20px;
+    color: #0f292c;
+    line-height: 0.8;
+}
+header a{
+    text-decoration: none;
+    color: #0f292c;
+    /* font-weight: 500px; */
+}
+header a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*Navigation bar*/
+nav {
+    background-color:#182527;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    padding: 5PX 0;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* background-color: violet; */
+}
+
+/*Common margin for each section*/
+section {
+    margin-bottom: 20px;
+}
+
+/*all property for each sections*/
+section h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #182527;
+}
+
+.aboutme{
+    text-align: justify;
+}
+.aboutme p{
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+/*designing list*/
+.skills ul,
+.experience ul,
+.achievements ul,
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li,
+.experience ul li,
+.achievements ul li,
+.projects ul li {
+    background: #dfe6e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #030410;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+/*Table for educational qualification section*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    font-size: 17px;
+}
+
+th {
+    background-color: #dfe6e9;
+    text-align: center;
+}
+td {
+    font-weight: 500;
+}
+
+td:nth-child(3), td:nth-child(4) {
+    text-align: center;
+}
+
+/*form designing*/
+.contact{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    margin-left: 0;
+    padding: 10px;
+    
+}
+
+.contact-details, .contact-form {
+
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: 0 4px 5px rgba(70, 70, 70, 0.333);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.contact-details{
+    width: 32%;
+    height: auto;
+}
+
+ /* Contact Form*/ 
+.contact-form{
+    width: 66%;
+    height: auto;
+}
+
+.contact-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #272727ef;
+}
+
+.contact-details p {
+    font-size: 17px;
+    margin: 8px 0;
+    color: #323232;
+}
+
+.contact-details p a{
+    text-decoration: none;
+    color: #323232;
+}
+.contact-details p a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction:column;
+}
+
+.contact-form label {
+    margin: 10px 2px;
+    font-weight: 549;
+    font-size: 18px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.contact-form button {
+    background-color: #20CD8D;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-form button:hover {
+    background-color: #07a169;
+}
+
+/* Social Media Icons */
+.contact-details ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-details ul li{
+    margin: 10px 15px 5px;
+    padding: 10px;
+    
+}
+.contact-details ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+.contact-details ul li a img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+/* Footer Area */
+footer{
+    width:100%;
+    text-align: center;
+    background-color: #28342c;
+    padding: 0.5PX 0;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+footer p{
+    color: white;
+    font-size: 17px;
+}
